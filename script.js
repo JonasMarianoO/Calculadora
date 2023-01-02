@@ -106,6 +106,7 @@ equalsButton.addEventListener('click', () => {
   calculator.operation = undefined;
 });
 
+//botão del
 deleteButton.addEventListener('click', () => {
   calculator.delete();
   calculator.updateDisplay();
